@@ -1,3 +1,4 @@
+print('hello world')
 import pandas as pd
 
 df = pd.DataFrame({
@@ -6,3 +7,5 @@ df = pd.DataFrame({
 })
 
 print(df)
+df.describe()
+df.shape
